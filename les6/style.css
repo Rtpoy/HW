@@ -1,12 +1,46 @@
-body {
-    background-color: grey;
-}
 .form {
+    background-color: grey;
+    border-radius: 20px;
+    width: 500px;
     border: 1px solid;
     padding: 20px;
     display: flex;
     flex-flow: column;
+    margin: auto;
 }
-#program-sighup{
-    border-radius: 20px;
+
+
+
+select{
+    border: 3px ridge;
+    border-radius: 10px;
+    height: 50px;
+    width: 200px;
+}
+
+input {
+    border-radius:  10px;
+     width: 200px;
+  height: 40px;
+}
+#submit{
+    height: 40px;
+    border-radius: 18px;
+    background-color: rgb(60, 60, 223);
+    width: 50%; 
+}
+
+#comment {
+    margin-top: 15px;
+    border-radius: 15px;
+    height: 100px;
+    width: auto;
+    resize: none;
+    padding: 10px;
+}
+.col-1{
+ float: left;
+}
+.col-2{
+    float: right;
 }

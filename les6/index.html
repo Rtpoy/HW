@@ -10,37 +10,53 @@
 <body>
     <article>
         <form class="form" id="program-sighup">
+            <div class="row">
+                <div class="col-1">
+                    <label for="name">Full name</label><br>
+                    <input type="text" id="name">
+                </div>
+                <div class="col-2">
+                    
+                    <label for="phone">Phone number</label><br>
+                        <input type="text" id="phone">
+                </div>
+            </div><br>
+            <div class="'row">
+                <div class="col-1">
+                    <label for="address">Address</label><br>
+                    <input type="text" id="address">
+                </div>
+                <div class="col-2">
+                    <label for="serviceType">Reguested service</label><br>
+                    <select name = 'select' id="serviceType">
+                        <option value ='Houseworking'>Houseworking</option>
+                        <option  value ='Carwashing'>Carwashing</option>
+                        <option  value ='Keeping'>Keeping</option>
+                    </select>
+                </div>
+            </div><br>   
+            <div class="row">
+                <div class="col-1">
+                    <label for="date">day of service</label><br>
+                    <input type="date" id="date">
+                </div>
+                <div class="col-2">
+                    <label for="email">Email</label><br>
+                    <input type="text" id="email">
         
-         <label for="name">Name</label>
-         <input type="text" id="name"   size="10">
-
-         <label for="phone">phone</label>
-         <input type="text" id="phone"   size="10">
-
-         <label for="address">address</label>
-         <input type="text" id="address"   size="10">
-        
-         <label for="serviceType">serviceType</label>
-         <select name = 'select' id="serviceType">
-         <option value ='Houseworking'>Houseworking</option>
-         <option  value ='Carwashing'>Carwashing</option>
-         <option  value ='Keeping'>Keeping</option>
-         </select>
-
-         <label for="date">date</label>
-         <input type="date" id="date"   size="10">
-
-         <label for="comment">comment</label>
-         <input type="text" id="comment"   size="10">
+                </div>
+            </div>
 
 
-               <label for="email">Email</label>
-         <input type="text" id="email"   size="10">
-        
+
+                <label for="comment">Add a note</label>
+                 <input type="text" id="comment">
+
+
+
+
        
-         <button>JOIN</button>
-
-
+         <button id = 'submit'>JOIN</button>
 
 
 
