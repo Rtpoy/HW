@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.overlay{
+    background-color:  rgba(0, 0, 0, 0.877);
+    width: 100vw;
+    height: 100vh;
+    display: block;
+    position: absolute;
+    top: 0;
+    
+}
+.isHidden{
+    display: none;
+}
+
+.img{
+    display: block;
+    height: auto; 
+    position: absolute; 
+    
+}
+.text{
+    position:absolute;
+    bottom: 0;
+    padding: 30px 30px 30px 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.content{
+    background-color: aliceblue;    
+    position: absolute;
+    top: 400px;
+    left: 50%;
+    width: 400px;
+    height: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+}
+.closeModalBtn {
+    position: absolute;
+    top: -10%;
+    right: -10%;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.openModal{
+  padding: 20px;
+  border: 1px solid red;
+  margin: 0 auto;
+  display: block;
+  margin-top: 100px;
+  cursor: pointer;
+  position: relative;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 2;
+  height: 50px;
+  transition: all 200ms linear;
+  border-radius: 4px;
+  width: 240px;
+  letter-spacing: 1px;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  -ms-justify-content: center;
+  justify-content: center;
+  -ms-flex-pack: center;
+  text-align: center;
+    -ms-flex-item-align: center;
+    align-self: center;
+  border: none;
+  cursor: pointer;
+  background-color: #102770;
+  color: #ffeba7;
+  box-shadow: 0 12px 35px 0 rgba(16,39,112,.25);
+}

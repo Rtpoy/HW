@@ -41,7 +41,7 @@ function updateTimer() {
 
 
      secondsNumFirst: Math.floor(seconds / 10),
-     secondsNumSecond: seconds % 10,
+     secondsNumSecond: seconds % 10, 
 
    }
    if(Format === 1){

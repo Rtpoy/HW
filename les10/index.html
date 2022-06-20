@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Orbitron|Text+Me+One" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+        <div class="container">
+
+            <div class="ClockHolder">
+
+                <div class="WeekDays">
+                    <span>sat</span>
+                    <span>sun</span>
+                    <span>mon</span>
+                    <span>tue</span>
+                    <span>wed</span>
+                    <span>thu</span>
+                    <span>fri</span>
+                </div>
+
+                <div class="TimeHolder">
+
+                    <div class="TimeOptions">
+
+                        <button  class="fas fa-clock" data-title="Time" data-info="My date attribut">
+                            <img src ="./icons/clock.svg" width="24">
+                        </button>
+                        <button  class="fas fa-stopwatch" data-title="StopWatch" data-info="My date attribut">
+                            <img src ="./icons/timer.svg"  alt="StopWatch" width="24">
+                        </button>
+                        <button  class="fas fa-clock" data-title="CountDown" alt=""CountDown>
+                            <img src ="./icons/counter.svg" alt="CountDown" width="24">
+                        </button>
+
+                    </div>
+
+                    <div class="Numbers">
+
+                        <div class="NumberHolder H1">
+
+                            <span class="d1"></span>
+                            <span class="d2"></span>
+                            <span class="d3"></span>
+                            <span class="d4"></span>
+                            <span class="d5"></span>
+                            <span class="d6"></span>
+                            <span class="d7"></span>
+
+                        </div>
+
+                        <div class="NumberHolder H2">
+
+                            <span class="d1"></span>
+                            <span class="d2"></span>
+                            <span class="d3"></span>
+                            <span class="d4"></span>
+                            <span class="d5"></span>
+                            <span class="d6"></span>
+                            <span class="d7"></span>
+
+                        </div>
+
+                        <span>:</span>
+
+                        <div class="NumberHolder M1">
+
+                            <span class="d1"></span>
+                            <span class="d2"></span>
+                            <span class="d3"></span>
+                            <span class="d4"></span>
+                            <span class="d5"></span>
+                            <span class="d6"></span>
+                            <span class="d7"></span>
+
+                        </div>
+
+                        <div class="NumberHolder M2">
+
+                            <span class="d1"></span>
+                            <span class="d2"></span>
+                            <span class="d3"></span>
+                            <span class="d4"></span>
+                            <span class="d5"></span>
+                            <span class="d6"></span>
+                            <span class="d7"></span>
+
+                        </div>
+
+                        <span>:</span>
+
+                        <div class="NumberHolder S1">
+
+                            <span class="d1"></span>
+                            <span class="d2"></span>
+                            <span class="d3"></span>
+                            <span class="d4"></span>
+                            <span class="d5"></span>
+                            <span class="d6"></span>
+                            <span class="d7"></span>
+
+                        </div>
+
+                        <div class="NumberHolder S2">
+
+                            <span class="d1"></span>
+                            <span class="d2"></span>
+                            <span class="d3"></span>
+                            <span class="d4"></span>
+                            <span class="d5"></span>
+                            <span class="d6"></span>
+                            <span class="d7"></span>
+
+                        </div>
+
+
+                    </div>
+
+                    <div class="AlarmInput">
+                        <input type="number" placeholder="Enter Seconds">
+                    </div>
+
+                    <div class="TimeFormat">
+
+                        <div class="Type">
+                            <span id ='12hr'>12hr</span>
+                            <span class="active" id="24hr">24hr</span>
+                        </div>
+
+                        <div class="Formats">
+                            <span>am</span>
+                            <span>pm</span>
+                        </div>
+
+                        <div class="control">
+                            <button class="Start active" id="start">
+                                <img src="./icons/start.svg" alt="start" class="fas fa-play" width="24">
+                            </button>
+                            <button class="Pause" id="pause">
+                                <img src="./icons/pause.svg" alt="pause" class="fas fa-play" width="24">
+                            </button>
+                            <button class="Stop active" id="stop">
+                                <img src="./icons/stop.svg" alt="stop" class="fas fa-play" width="24">
+                            </button>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <script src="./clock.js" type="module"></script>
+    </body>
+    </html>
